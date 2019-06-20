@@ -10,15 +10,15 @@
 <body>
 
 <header id="header">
-  <img id="header-img" src="coffee1.png" alt="coffee">
+  <a href="#"><img id="header-img" src="coffee1.png" alt="coffee"></a>
   <nav id="nav-bar">
     <ul>
       <li><a href="#" class="nav-link" id="nav1" >Home</a></li>
-      <li><a href="#" class="nav-link" id="nav2" >Our Coffee</a></li>
-      <li><a href="#" class="nav-link" id="nav3" >Products</a></li>
+      <li><a href="#about" class="nav-link" id="nav2" >Our Coffee</a></li>
+      <li><a href="#product" class="nav-link" id="nav3" >Products</a></li>
     </ul>
   </nav>
-  <a href="#form"><button>Contact</button></a>
+  <a href="#contact"><button>Contact</button></a>
 </header>
 
 <section id="bg">
@@ -28,20 +28,37 @@
 </section>
 
 <section id="about">
-      <h2>Text</h2>
+      <h2>About Our Coffee</h2>
       <iframe src="https://www.youtube.com/embed/hqVoCAlxCII" id="video" controls></iframe>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, minus. Autem iure sapiente molestias pariatur quibusdam placeat nostrum natus, ex in ut ipsam id, minima ullam nesciunt dolore ea eligendi.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, minus. Autem iure sapiente molestias pariatur quibusdam placeat nostrum natus, ex in ut ipsam id, minima ullam nesciunt dolore ea eligendi.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, minus. Autem iure sapiente molestias pariatur quibusdam placeat nostrum natus, ex in ut ipsam id, minima ullam nesciunt dolore ea eligendi.</p>
 </section>
 
-<!-- <section>
+<section id="product">
+      <h2>Products</h2>
+      <div id="container">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, error ab accusantium harum in nisi voluptas reiciendis impedit illo atque nesciunt provident tempora, quisquam praesentium, corporis expedita. Nesciunt, blanditiis natus?</p>
+      <button>Buy Here</button>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur necessitatibus dolore fugit delectus optio sequi? Libero maiores ipsa ea dolorem non sed ullam vitae eum, dolores expedita, fugit sit?</p>
+      <button>Buy Here</button>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sapiente, ipsa blanditiis, doloribus atque placeat itaque, odio recusandae iusto incidunt dignissimos magni cumque consectetur pariatur culpa. Libero adipisci amet temporibus!</p>
+      <button>Buy Here</button>
+      </div>
+</section>
+
+<section id="contact">
+      <h2>Contact Us</h2>
       <form action="" id="form" action="https://www.freecodecamp.com/email-submit">
-        <label for="email">Enter Email</label>
+        <label for="name">Enter Your Name:</label>
+        <input type="text" name="name" id="name">
+        <label for="email">Enter Your Email:</label>
         <input type="email" id="email" placeholder="Enter email" required>
+        <label for="comment">Please Leave Your Message:</label>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
         <input type="submit" id="submit" value="Submit">
       </form>
-</section> -->
+</section>
 
 <!-- //Use media query -->
 <!-- //Navbar must stay at top of viewport -->
